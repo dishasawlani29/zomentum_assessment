@@ -3,8 +3,6 @@ const app = express();
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const PORT = 4000;
-//const todoRoutes = express.Router();
-// let Todo = require("./todo_model");
 const ticketRoutes = express.Router();
 let Ticket = require("./ticket_model");
 
